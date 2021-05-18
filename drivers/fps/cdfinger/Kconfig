@@ -1,0 +1,9 @@
+#
+# cdfinger fingerprint driver configuration
+#
+
+config FPS_CDFINGER
+    tristate "cdfinger fingerprint driver support"
+    help
+    select cdfinger_fp
+      This support cdfinger fingerprint drivers.

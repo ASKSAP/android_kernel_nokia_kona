@@ -1,0 +1,31 @@
+#
+# for huaqin mis info
+#
+
+# huaqin added by SunXunou for HMD_ZQL1838 at 20200518 start
+config HQ_SIM_TRAY_CHECK
+	bool "check sim stry status"
+        default y
+	help
+	  this will create a node to show sim tray status.
+
+	  If unsure, say N.
+# huaqin added by SunXunou for HMD_ZQL1838 at 20200518 end
+# huaqin added by zhouzichun for HMD_ZQL1838 at 20200518 start
+config HW_INFO
+	bool "show hw info"
+        default n
+	help
+	  this will create a node to show some hw info.
+
+	  If unsure, say N.
+# huaqin added by zhouzichun for HMD_ZQL1838 at 20200518 end
+
+# huaqin added for DRSTRANGE-346 by yutao at 2020/06/19 start
+config RECORD_CRASH_INFO
+    bool "Record crash info"
+    default n
+    help
+      record crash info
+# huaqin added for DRSTRANGE-346 by yutao at 2020/06/19 end
+

@@ -1,0 +1,10 @@
+#
+# ILI_7807G Touchscreen driver configuration
+#
+
+config TOUCHSCREEN_ILI_7807G
+    bool "ILI_7807G Touchscreen"
+    default n
+    help
+      Say Y here if you have Focaltech touch panel.
+      If unsure, say N.
